@@ -151,7 +151,7 @@ async function startHisoka() {
 
   const client = sansekaiConnect({
     logger: pino({ level: "silent" }),
-    printQRInTerminal: false,
+    printQRInTerminal: true,
     browser: ["Wa-OpenAI - Sansekai", "Safari", "5.1.7"],
     auth: state,
   });
